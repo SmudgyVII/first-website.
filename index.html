@@ -87,16 +87,44 @@ footer {
     </div>
   </div>
 </section>
+  
 
 <section id="contact">
   <h2>Contact Us</h2>
-  <p>Ready to get started? Send us a message.</p>
-  <a class="button"
-     href="https://wa.me/447000000000">
-    Message us on WhatsApp
-  </a>
-  <p>YOUR EMAIL ADDRESS</p>
+  <p>Send us a message and we'll get back to you.</p>
+
+  <form
+    action="https://script.google.com/macros/s/AKfycbxAyuumQv0BPjsYXyV-raKu9hkjx822aqR293ZKgBnUlS-cvK4z3izANaTQnIMPPGtO/exec"
+    method="POST"
+    target="hiddenFrame">
+
+    <input name="name"
+      placeholder="Your name" required>
+
+    <input name="email"
+      type="email"
+      placeholder="Your email" required>
+
+    <input name="business"
+      placeholder="Business name">
+
+    <textarea name="message"
+      placeholder="How can we help?"
+      required></textarea>
+
+    <input name="website"
+      style="display:none"
+      tabindex="-1"
+      autocomplete="off">
+
+    <button type="submit">Send enquiry</button>
+  </form>
+
+  <iframe name="hiddenFrame"
+    style="display:none"></iframe>
 </section>
+
+
 
 <footer>
   © YOUR BUSINESS NAME
