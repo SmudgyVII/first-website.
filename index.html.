@@ -1,1 +1,107 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Local Business</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #20332c;
+  background: #f6f5f0;
+}
+header {
+  background: #18392d;
+  color: white;
+  padding: 65px 24px;
+  text-align: center;
+}
+h1 { font-size: 38px; margin: 0 0 16px; }
+p { line-height: 1.7; }
+section {
+  max-width: 700px;
+  margin: auto;
+  padding: 32px 24px;
+}
+.button {
+  display: inline-block;
+  background: #d9f27b;
+  color: #18392d;
+  padding: 15px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 14px;
+}
+.service {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+footer {
+  background: #18392d;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>YOUR BUSINESS NAME</h1>
+  <p>Reliable service. Excellent results.</p>
+  <a class="button" href="#contact">Get in touch</a>
+</header>
+
+<section>
+  <h2>Welcome</h2>
+  <p>
+    We provide professional services to customers
+    throughout your local area. Get in touch to
+    discuss your needs and receive a free quote.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Service One</h3>
+      <p>Describe your first service here.</p>
+    </div>
+    <div class="service">
+      <h3>Service Two</h3>
+      <p>Describe your second service here.</p>
+    </div>
+    <div class="service">
+      <h3>Service Three</h3>
+      <p>Describe your third service here.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Ready to get started? Send us a message.</p>
+  <a class="button"
+     href="https://wa.me/447000000000">
+    Message us on WhatsApp
+  </a>
+  <p>YOUR EMAIL ADDRESS</p>
+</section>
+
+<footer>
+  © YOUR BUSINESS NAME
+</footer>
+
+</body>
+</html>
+
